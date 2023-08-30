@@ -3,7 +3,7 @@ package com.solar.edge.models;
 import java.util.HashMap;
 import java.util.Map;
 
-public class SolarPanelModelInformation {
+public class SolarPanelModel {
 	private String name;
 	private String moduleType;
 	private String manufacturer;
@@ -13,7 +13,7 @@ public class SolarPanelModelInformation {
 	private STC stc;
 	private NOCT noct;
 	
-	public SolarPanelModelInformation(String name, String moduleType, String manufacturer) {
+	public SolarPanelModel(String name, String moduleType, String manufacturer) {
 		this.name = name;
 		this.moduleType = moduleType;
 		this.manufacturer = manufacturer;
