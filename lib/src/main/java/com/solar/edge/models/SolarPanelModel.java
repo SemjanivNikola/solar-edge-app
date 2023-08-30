@@ -66,5 +66,4 @@ public class SolarPanelModel {
 	public NOCT getNOCT() {
 		return this.noct;
 	}
-	
 }

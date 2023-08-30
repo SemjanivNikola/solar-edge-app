@@ -43,5 +43,4 @@ public class AdditionalInformation {
 	public short getMaxSnowLoad() {
 		return this.maxSnowLoad;
 	}
-	
 }

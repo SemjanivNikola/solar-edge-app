@@ -3,8 +3,8 @@ package com.solar.edge;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-import com.solar.edge.models.SolarPanelModelInformation;
-import com.solar.edge.models.SolarPanelModelInformationList;
+import com.solar.edge.models.SolarPanelModel;
+import com.solar.edge.models.SolarPanelModelList;
 
 //import com.solar.edge.models.STC;
 //import com.solar.edge.models.STCBuilder;
@@ -18,7 +18,7 @@ public class Main {
         
         //System.out.println(stc.getMaxPower());
         
-        ArrayList<SolarPanelModelInformation> list = SolarPanelModelInformationList.getPanelModelList();
+        ArrayList<SolarPanelModel> list = SolarPanelModelList.getPanelModelList();
         
     	
     }

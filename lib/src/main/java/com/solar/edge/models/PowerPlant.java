@@ -22,5 +22,4 @@ public class PowerPlant {
 	public int getControllerAddress() {
 		return this.controllerAddress;
 	}
-
 }

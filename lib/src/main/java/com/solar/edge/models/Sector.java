@@ -16,5 +16,4 @@ public class Sector {
 	public int getControllerAddress() {
 		return this.controllerAddress;
 	}
-	
 }
